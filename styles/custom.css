@@ -1,0 +1,320 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+:root{
+    --violetaOscuro: #36174D;
+    --violeta: #6F36BC;
+    --salmon: #FF4778;
+    --gris:  #F3EFFE;
+    --font: 'Quicksand', sans-serif;
+}
+
+/* ------------- Estilos Generales/ INDEX ------------- */
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+header{
+    height: 4%;
+    width: 100%;
+    background-color: var(--violeta);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 4rem;
+    font-family: var(--font);
+    font-weight: bold;
+    color: var(--gris);
+}
+nav{
+    width: 100%;
+    height: 5vh;
+    font-family: var(--font);
+    background-color: var(--violetaOscuro);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+nav>a{
+    height: 100%;
+    width: 12%;
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gris);
+    margin: 0 2rem;
+    text-decoration: none;
+}
+nav>a:hover{
+    transition: background-color 0.5s;
+    color: var(--marronClaro);
+    font-family: var(--font);
+    font-weight: bold;
+    background-color: var(--salmon);
+}
+.boton_carrito{
+    color: #F3EFFE;
+    background-color: #36174D;
+}
+.boton_carrito:hover{
+    transition: background-color 0.5s;
+    color: var(--marronClaro);
+    font-family: var(--font);
+    font-weight: bold;
+    background-color: var(--salmon);
+}
+/* main footer*/
+main{
+    width: 100%;
+    background-color: var(--gris);
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: var(--violetaOscuro);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ------------- Clases ------------- */
+.a_header{
+    color: var(--gris);
+    font-family: var(--font);
+    font-weight: bold;
+    text-decoration: none;
+}
+.iconos_nav{
+    margin-right: 0.5rem;
+}
+/* ------------- ID ------------- */
+#pushed{
+    color: var(--marronClaro);
+    font-family: var(--font);
+    font-weight: bold;
+    background-color: var(--salmon);
+}
+#logo_header{
+    margin: 3rem 0 0 3rem;
+    z-index: 1;
+}
+#main_corte1{
+    height: 33.3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: var(--gris);
+}
+#bienvenidos_main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: var(--font);
+    font-weight: bold;
+    margin: 0 2% 8% 5%;
+}
+#bienvenidos_main>p{
+    height: 7vh;
+    margin: 0;
+    font-size: 8vh;
+}
+#main_corte2{
+    height: 33.3%;
+    width: 100%;
+    background-color:var(--salmon);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parrafos_quienes_somos{
+    color: var(--gris);
+    text-align: center;
+}
+#main_corte3{
+    height: 33.3%;
+    background-color:var(--violeta);
+    display: flex;
+    justify-content: center;
+}
+.contactos_header{
+    font-family: var(--font);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    margin-right: 3rem;
+}
+.contactos_header>a{
+    text-decoration: none;
+    color:var(--gris);
+}
+
+/*footer*/
+.durmiendo{
+    position: fixed;
+    right: 40px;
+    bottom: 7px;
+}
+.footer_font--style {
+    color: var(--gris);
+    font-family: var(--font);
+    font-weight: bold;
+}
+.index_h2{
+    text-align: center;
+    color: var(--gris);
+}
+.div--footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*quienes somos*/
+.border-left {
+    border-left: 2px solid white;
+}
+.w-60{
+    width: 60%;
+    background-color: #FF4778;
+    color: white;
+}
+.w-40{
+    width: 40%;
+}
+.p-l10 {
+    padding-left: 10%;
+}
+.efecto {
+    background-color: aliceblue;
+    width: 150px;
+    height: 50px;
+    transform: rotate(-5deg);
+    display: block;
+    position: relative;
+}
+.adelante {
+    color: #6F36BA;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    padding: 11px;
+}
+
+.modal-dialog {
+    position: fixed;
+    margin: auto;
+    right: 20px;
+    bottom: 150px;
+}
+
+/* ------------- FARMACIA Y JUGUETES ------------- */
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.tituloSeccion{
+    background-color: var(--salmon);
+    color: var(--beige);
+    text-align: center;
+    padding: 0.5rem;
+}
+#juguetes{
+    margin-right: 9rem;
+}
+.cardsJuguetes{
+    border: solid 3px var(--violeta);
+
+    border-radius: 5px;   
+}
+.botonCompra{
+    background-color: var(--violetaOscuro);
+    border: #503f8c;
+    color: white;
+}
+.botonCompra:hover{
+    background-color: #FF4778 !important;
+}
+.card-group {
+    width: 20%;
+}
+.inputCantidad{
+    width: 2rem;
+    text-align: center;
+}
+.imgTarjetas{
+    transition: transform 0.8s;
+    margin-top: 1rem;
+}
+.imgTarjetas:hover{
+    transform: scale(1.1);
+}
+.dropdown-item {
+    width: 100%;
+}
+.descripcion {
+    color:#6F36BA;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.descripcion:hover{
+    color: #6F36BA;
+}
+
+/* ------------- CONTACTO ------------- */
+
+.foto_radio{
+    width: 14rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+#gatito{
+    width: 14rem;
+    height: 12rem;
+}
+#form_contacto{
+    list-style-type: none;
+}
+
+#form{
+    width: 40vw;
+    min-height: 100vh;
+
+}
+input{
+    margin: .25rem 0;
+}
+label{
+    margin: .25rem 0;
+}
+.boton_modal{
+    background-color: #6F36BA;
+    color: #F1EDFC;
+}
+.modal-dialog{
+    bottom: 40vh !important;
+    right: 40vw !important;
+}
+.modal-header{
+    background-color: #6F36BA;
+    color: #F1EDFC;
+}
+#huellas{
+    height: 18rem;
+    padding-left: 5rem;
+}
