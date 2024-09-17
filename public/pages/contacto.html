@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/custom.css">
     <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
-    <title>Contacto | Franco PetShop</title>
+    <title>Contacto | Aniara PetShop</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 
         <header>
             <img src="../assets/logo_schannauzer_53x53.png" alt="logo pet shop" id="logo_header">
-            <h1>Franco's Pet Shop</h1>
+            <h1>Aniara Pet Shop</h1>
             <div id="contactos_header">
                 <button class="boton_carrito m-5 btn"data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"aria-controls="offcanvasRight">
                     Tu carrito de compras <img src="../assets/carrito_15x15.png">
@@ -32,10 +32,10 @@
 <!-- ========================== Nav ========================== -->
 
         <nav>
-            <a class="a_nav" href="../index.html"><img src="../assets/inicio_15x15.png" class ="iconos_nav">Inicio</a>
+            <a class="a_nav" href="../index.html"><img src="../assets/inicio_15x15.png" class ="iconos_nav">Home</a>
             <a class="a_nav" href="./farmacia.html"><img src="../assets/farmacia_15x15.png" class ="iconos_nav">Farmacia</a>
             <a class="a_nav" href="./juguetes.html"><img src="../assets/juguetes_15x15.png"class ="iconos_nav">Juguetes</a>
-            <a class="a_nav" href="#" id="pushed"><img src="../assets/contactos_15x15.png"class ="iconos_nav">Contáctenos</a>
+            <a class="a_nav" href="#" id="pushed"><img src="../assets/contactos_15x15.png"class ="iconos_nav">Ingresa</a>
         </nav>
 
 <!-- ========================== Carrito ========================== -->
@@ -76,9 +76,9 @@
 
 <!-- ========================== Main ========================== -->
 
-        <main class="d-flex justify-content-around">
-            <form action="#" id="form" class="d-flex flex-column py-4 px-4">
-                <legend>Elegí tu mascota:</legend>
+        <main class="d-flex justify-content-around ">
+            <form action="#" id="form" class="d-flex flex-column py-4 px-4 mt-5">
+                <legend>Ingresa tu email registrado</legend>
                 <div class="d-flex justify-content-center">
                     <input type="radio" name="Gato" id="radio_gato" required value="gato" class="btn-check"></input>
                     <label for="radio_gato" class="btn ">
@@ -91,27 +91,16 @@
                 </div>
 
 
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="user_first_name" placeholder="Ingrese su nombre" required>
 
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="user_last_name" placeholder="Ingrese su apellido" required>
-
-                <label for="telefono">Teléfono:</label>
-                <input type="text" id="telefono" name="user_phone" placeholder="Nro de teléfono sin espacios ni guiones"
-                    required>
-
-                <label for="mascota">Nombre mascota: </label>
-                <input type="text" id="mascota" name="pet_name" placeholder="Nombre de su mascota">
 
                 <label for="mail">Correo electrónico:</label>
                 <input type="email" id="mail" name="user_mail" placeholder="Ingrese su correo electrónico">
 
-                <label for="msg" class="my2">Mensaje:</label>
-                <textarea id="msg" name="user_message" rows="5" placeholder="Dejanos tu mensaje!"></textarea>
+                <label for="nombre">Contraseña:</label>
+                <input type="text" id="nombre" name="user_first_name" placeholder="Ingrese su nombre" required>
 
                 <button type="submit" class="my-2 py-2 btn boton_carrito" id="my_input" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Envianos tu consulta</button>
+                    data-bs-target="#exampleModal">Ingresar</button>
             </form>
 
             <!-- Modal -->
@@ -143,13 +132,13 @@
                 <div class="py-2 px-2">
                     <h5>Contactanos:</h5>
                     <p>Atención Teléfonica: 011-220-2345</p>
-                    <p>Atención Whatsapp: +54-911-534-620</p>
+                    <p>Atención Whatsapp: (604)78689734</p>
                     <p>Lunes a Sábados de 9 a 21 hs</p>
                     <p>Domingos de 10 a 20 hs</p>
                 </div>
                 <div class="py-2 px-2">
-                    <h5>Encontranos en:</h5>
-                    <img src="../assets/huellas-removebg-preview.png" alt="huellas" id="huellas">
+                    <h5>Encuéntranos en:</h5>
+                    <img style="height: 280px;" src="../assets/huellas-removebg-preview.png" alt="huellas" id="huellas">
                     <div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6871004428513!2d-58.432572384236636!3d-34.6120729654484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca429815227f%3A0x5d302e497c2cda87!2sR%C3%ADo%20de%20Janeiro%20300%2C%20C1405CCB%20CABA!5e0!3m2!1ses-419!2sar!4v1650046491404!5m2!1ses-419!2sar" 
                         width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -171,7 +160,7 @@
                 </div>
             </div>
             <div class="col-2 text-center footer_font--style">
-                Encontranos en: Río de Janeiro 300, Bs. As. Argentina
+                Encontranos en: Envigado, Antioquia
             </div>
             <div class="col-2 div--footer">
                 <div class="text-center footer_font--style">Formas de pago</div>

@@ -261,7 +261,7 @@ footer{
     transition: transform 0.8s;
     margin-top: 1rem;
 }
-.imgTarjetas:hover{
+.imgTarjetas:hover{ 
     transform: scale(1.1);
 }
 .dropdown-item {
@@ -293,7 +293,6 @@ footer{
 
 #form{
     width: 40vw;
-    min-height: 100vh;
 
 }
 input{
